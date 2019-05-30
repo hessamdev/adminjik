@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/c200"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/City_Textview_Addostan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اضافه کردن استان"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/c300"
+        />
+    <LinearLayout
+        android:id="@+id/City_Linear_Addostan"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sefid"
+            android:padding="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:text="ثبت"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@color/c300"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/City_Textview_Addshahr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اضافه کردن شهر"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/c300"
+        />
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/City_Linear_Addshahr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:id="@+id/City_Textview_Setostan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sefid"
+            android:layout_marginBottom="5dp"
+            android:text="انتخاب استان"
+            android:padding="10dp"
+            android:textSize="14dp"
+
+            >
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sefid"
+            android:padding="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:text="ثبت"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@color/c300"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/City_Textview_Addmahale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اضافه کردن محله"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/c300"
+        />
+    <LinearLayout
+        android:id="@+id/City_Linear_Addmahale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/City_Textview_Setostan-m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sefid"
+            android:layout_marginBottom="5dp"
+            android:text="انتخاب استان"
+            android:padding="10dp"
+            android:textSize="14dp"
+
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/City_Textview_Setshahr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sefid"
+            android:layout_marginBottom="5dp"
+            android:text="انتخاب شهر"
+            android:padding="10dp"
+            android:textSize="14dp"
+
+            >
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sefid"
+            android:padding="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:text="ثبت"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@color/c300"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>
